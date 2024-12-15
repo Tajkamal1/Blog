@@ -3,6 +3,30 @@ import time
 import sys
 from datetime import datetime
 
+# Function to display the "Taj" logo
+def Logo():
+    detect_color = "\033[1;34m"  # This will give a blue color to the logo text
+    print(detect_color + '''
+    
+    ██████████████████████████████████████████████████
+    ██████  AAAAA   JJJJJ    ████████████████  TTTTT   █
+    ██      A     A     J    ██   A     A    T     █   █
+    ██      AAAAAAA     J    ██   AAAAAAA    T     █   █
+    ██      A     A     J    ██   A     A    T     █   █
+    ██████  A     A    JJJJJ  ████████████████  TTTTT   █
+    ██████████████████████████████████████████████████
+
+    ==============================================
+    [developer] => FaLaH - 0xfff0800 
+    [developer_email] => flaaah777@gmail.com
+    [developer_snapchat] => flaah999
+    ==============================================
+
+    ''')
+
+# Test the Logo function
+Logo()
+
 # Function to read passwords from a file
 def read_passwords(file_path):
     try:
